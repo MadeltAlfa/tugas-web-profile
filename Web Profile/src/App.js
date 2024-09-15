@@ -1,9 +1,9 @@
  /** creating button click show hide navbar **/
- let togglebtn = document.querySelector(".togglebtn");
- let nav = document.querySelector(".navlinks");
- let links = document.querySelector(".navlinks li");
+ const togglebtn = document.querySelector(".togglebtn");
+ const nav = document.querySelector(".navlinks");
+ const links = document.querySelector(".navlinks li");
  const downloadBtn = document.querySelector(".btn.active");
- const cvURL = "./src/certificate.pdf";
+ const cvURL = "../aseets/Nanda Bagus Ramadhani.pdf";
 
  togglebtn.addEventListener("click", function(){
      this.classList.toggle("click");
